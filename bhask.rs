@@ -1,6 +1,4 @@
 use std::{f32}; // to use float
-use std::io::stdin;
-
 
 fn main(){
 
@@ -26,10 +24,9 @@ let x2 : f32 = ((b*-1f32) - (delta.sqrt())) / (2f32*a);
 
 println!("\n-------\ndelta = {}\nx1 = {}\nx2 = {} ",delta,x1,x2);
 
-let Xv : f32 = (b*-1f32) / (2f32*a);
-let Yv : f32 = (delta*-1f32) / (4f32*a);
+let xv : f32 = (b*-1f32) / (2f32*a);
+let yv : f32 = (delta*-1f32) / (4f32*a);
 
-println!("max/min point : {} , {} ",Xv,Yv);
+println!("max/min point : {} , {} ",xv,yv);
 
 }
-
